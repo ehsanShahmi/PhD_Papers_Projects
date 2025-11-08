@@ -20,7 +20,7 @@ import io
 
 ##This part of the code is just setting up the Gemini-pro LLM:
 # Set your API key
-os.environ['GEMINI_API_KEY'] = 'AIzaSyBvjwIXLob-RZKvfpJNnfbF0X8pQKfRP5M'
+os.environ['GEMINI_API_KEY'] = '------'
 # we can confirm the key was set (optional)
 # print(os.environ['GEMINI_API_KEY'])
 # The client gets the API key from the environment variable `GEMINI_API_KEY`, which is set above.
