@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Now you can access the variables using os.environ
-api_key = os.environ.get('GEMINI_API_KEY')
+api_key = os.environ.get("OPENAI_API_KEY")
 
 if api_key:
     print("API Key successfully loaded.")

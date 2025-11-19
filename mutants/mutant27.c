@@ -1,4 +1,4 @@
-```c
+// ```c
 /*
  * Copyright (c) 2006, 2007, 2008 Red Hat, Inc.
  * Copyright (c) 2007, 2008 Intel Corporation
@@ -841,4 +841,4 @@ static int __init netlbl_cipsov4_init(void)
 	return ret_val;
 }
 subsys_initcall(netlbl_cipsov4_init);
-```
+// ```

@@ -3,20 +3,20 @@
 #include <string.h>
 #include <assert.h>
 
-/*
-================================================================================
-_                _  ____  _             _
-| |              | |/ __ \| |           | |
-| |     ___ _   _| | |  | | | ___   __ _| |
-| |    / _ \ | | | | |  | | |/ _ \ / _` | |
-| |___|  __/ |_| | | |__| | | (_) | (_| | |
-|______\___|\__,_|_|\____/|_|\___/ \__,_|_|
+// /*
+// ================================================================================
+// _                _  ____  _             _
+// | |              | |/ __ \| |           | |
+// | |     ___ _   _| | |  | | | ___   __ _| |
+// | |    / _ \ | | | | |  | | |/ _ \ / _` | |
+// | |___|  __/ |_| | | |__| | | (_) | (_| | |
+// |______\___|\__,_|_|\____/|_|\___/ \__,_|_|
 
-This section contains stubs and simplified re-implementations of Linux kernel
-types, functions, and macros. This allows the target file, which is designed
-for the kernel environment, to be compiled and tested in userspace.
-================================================================================
-*/
+// This section contains stubs and simplified re-implementations of Linux kernel
+// types, functions, and macros. This allows the target file, which is designed
+// for the kernel environment, to be compiled and tested in userspace.
+// ================================================================================
+// */
 
 /* --- Basic Kernel Types --- */
 typedef unsigned char u8;

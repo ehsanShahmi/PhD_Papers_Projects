@@ -1,6 +1,6 @@
-An extended version of the test suite that contains three more extra test cases that will fail on the mutant version of the file, but would pass on the correct version.
+// An extended version of the test suite that contains three more extra test cases that will fail on the mutant version of the file, but would pass on the correct version.
 
-```c
+// ```c
 #include <stdio.h>
 #include <stdlib.h>
 #include "CUnit/Basic.h"
@@ -163,5 +163,3 @@ int main() {
     CU_cleanup_registry();
     return failures > 0 ? 1 : 0;
 }
-
-```
